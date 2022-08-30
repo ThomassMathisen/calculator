@@ -4,6 +4,7 @@ body {
     align-items: center;
     justify-content: space-between;
     flex-direction: column;
+    background-color: lightyellow;
 }
 
 h1 {
@@ -24,30 +25,76 @@ footer {
     justify-content: center;
     border: 1px solid black;
     height: 250px;
-    width: 200px;
+    width: 220px;
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
-    border-collapse: collapse;
+    background-color: black;
+    padding-bottom: 20px;
 }
 
 .display {
     border: 1px solid black;
-    width: 200px;
-    height: 50px;
+    width: 220px;
+    height: 60px;
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
+    background-color: black;
 }
 
 .calculator-display {
-    border: 1px solid black;
-    width: 150px;
-    height: 30px;
+    border: 1px solid #383838;
+    width: 170px;
+    height: 40px;
     margin-left: 25px;
-    margin-top: 10px;
+    margin-top: 15px;
     border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+    background-color: lightgray;
+}
+
+
+.zero {
+    width: 80px;
+}
+
+.btn {
+    border: 1px solid white;
+}
+
+.operator {
+    background-color: orange;
+}
+
+.equal {
+    background-color: orange;
+}
+
+.number {
+    background-color: darkgray;
+}
+
+.decimal {
+    background-color: darkgray;
+}
+
+#percent {
+    background-color: lightgray;
+}
+
+#clear {
+    background-color: lightgray;
+    width: 35px;
+    text-align: start;
+}
+
+#backspace {
+    background-color: lightgray;
 }
 
 .calculator {
- 
+    border: 5px solid #383838;
+    border-radius: 10px;
 }
-
